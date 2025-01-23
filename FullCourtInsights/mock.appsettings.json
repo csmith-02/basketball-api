@@ -1,0 +1,20 @@
+{
+    "ConnectionStrings": {
+        "DefaultConnection": "Host=localhost;Port=5432;Database=full_court_insights;Username=postgres;Password=<Insert Password here for local postgres admin user>"
+    },
+    "Logging": {
+        "LogLevel": {
+            "Default": "Information",
+            "Microsoft.AspNetCore": "Warning"
+        }
+    },
+    "JwtSettings": {
+        "Secret": "<Insert a secret here for JWT>",
+        "Issuer": "FullCourt Insights",
+        "Audience": "NBA Followers"
+    },
+    "ApiSettings": {
+        "BasketballApiKey": "<Insert Api Key Here>"
+    },
+    "AllowedHosts": "*"
+}
